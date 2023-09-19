@@ -1,1 +1,20 @@
-
+body{
+    margin: 0;
+    background: #131313;
+    .tag{
+        color: #FFF;
+        font-family: OnestReg;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.12px;
+        padding: 10px 20px;
+        border-radius: 40px;
+        border: 1px solid #FFF;
+        
+    }
+    p{
+        margin: 0;
+    }
+}
