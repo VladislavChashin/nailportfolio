@@ -1,0 +1,51 @@
+.education{
+    display: flex;
+    justify-content: space-between;
+    gap: 74px;
+    padding: 80px 0;
+    @media (max-width:840px){
+        flex-direction: column;
+        align-items: center;
+        width: 280px;
+        margin: 0 auto;
+        gap: 20px;
+        padding: 60px 0;
+    }
+    .education_tag{
+        align-self: flex-start;
+        .tag{
+            opacity: 0.6;
+        }
+    }
+    .education_content{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        @media (max-width:840px){
+            gap: 40px;
+        }
+        
+        .content_dropdown{
+            display: flex;
+            flex-direction: column;
+            gap: 45px;
+            .dropdown_block{
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 1px #FFF solid;
+                padding: 0 0 20px 0;
+                cursor: pointer;
+                p{
+                    color: #FFF;
+                    font-family: OnestReg;
+                    font-size: max(min(1.67vw, 24px), 16px);
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: -0.24px;
+                }
+                img{}
+            }
+        }
+    }
+}

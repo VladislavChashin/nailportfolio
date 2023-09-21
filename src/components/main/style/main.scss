@@ -1,0 +1,20 @@
+main{
+    padding: 120px 10%;
+    @media (max-width: 768px){
+        padding: 60px 20px;
+    }
+    .content_description{
+        p{
+            color: #FFF;
+            font-family: OnestReg;
+            font-size: max(min(2vw, 28px), 22px);
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: -0.28px;
+            @media (max-width:840px){
+                letter-spacing: -0.2px;
+            }
+        }
+    }
+}
