@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1403d668.css",
+    "main.js": "/static/js/main.285793c4.js",
+    "static/js/787.0d9a1556.chunk.js": "/static/js/787.0d9a1556.chunk.js",
+    "static/media/header.png": "/static/media/header.34d848a64f16e8fbce10.png",
+    "static/media/IMG_3.png": "/static/media/IMG_3.08e4a48b8370d1e3fdf7.png",
+    "static/media/IMG_6.png": "/static/media/IMG_6.f4f3ba8bb1ad2f965715.png",
+    "static/media/IMG_9.png": "/static/media/IMG_9.eff9c4bf1946ca443c84.png",
+    "static/media/IMG_5.png": "/static/media/IMG_5.f67e0c5d0e75f6316c30.png",
+    "static/media/IMG_2.png": "/static/media/IMG_2.62db5b000b3498936f57.png",
+    "static/media/IMG_4.png": "/static/media/IMG_4.82e02ce2e69c0f69e6a0.png",
+    "static/media/IMG_8.png": "/static/media/IMG_8.03d45d6643e1232c58bc.png",
+    "static/media/IMG_1.png": "/static/media/IMG_1.747384e2ed32bf391921.png",
+    "static/media/IMG_7.png": "/static/media/IMG_7.67d308785edad738681b.png",
+    "static/media/nail.png": "/static/media/nail.662ed6648ca59913f267.png",
+    "static/media/header470.jpg": "/static/media/header470.00fd084d29f35ec2bd6c.jpg",
+    "static/media/Onest-Bold.woff2": "/static/media/Onest-Bold.6bf8979df114ad6be7cf.woff2",
+    "static/media/Onest-Regular.woff2": "/static/media/Onest-Regular.3be157b7ce8462d1e23c.woff2",
+    "index.html": "/index.html",
+    "static/media/blue_check.svg": "/static/media/blue_check.d2a4415b84e75c983ecdbe4fd6961c49.svg",
+    "static/media/white_check.svg": "/static/media/white_check.fcbdc6e097b677e2d76898f129759cf2.svg",
+    "static/media/Menu.svg": "/static/media/Menu.9338ed9010b84c73f94ac438b6ead3fb.svg",
+    "static/media/plus.svg": "/static/media/plus.8f2968356c60a5629af75133a4023c50.svg",
+    "main.1403d668.css.map": "/static/css/main.1403d668.css.map",
+    "main.285793c4.js.map": "/static/js/main.285793c4.js.map",
+    "787.0d9a1556.chunk.js.map": "/static/js/787.0d9a1556.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1403d668.css",
+    "static/js/main.285793c4.js"
+  ]
+}
