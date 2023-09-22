@@ -1,8 +1,11 @@
 .aboutUs{
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    justify-content: flex-start;
+    gap: 120px;
     padding-bottom: 80px;
+    @media (max-width:1080px){
+        gap: 60px;
+    }
     @media (max-width:840px){
         flex-direction: column;
         align-items: center;
