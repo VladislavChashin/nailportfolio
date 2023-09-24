@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/nailportfolio/static/css/main.1213a396.css",
+    "main.css": "/nailportfolio/static/css/main.8c7e6aef.css",
     "main.js": "/nailportfolio/static/js/main.46874596.js",
     "static/js/787.0d9a1556.chunk.js": "/nailportfolio/static/js/787.0d9a1556.chunk.js",
     "static/media/header.png": "/nailportfolio/static/media/header.34d848a64f16e8fbce10.png",
@@ -43,12 +43,12 @@
     "static/media/Group12.svg": "/nailportfolio/static/media/Group12.31c2cc8564b1a9461584dd18f74c71f6.svg",
     "static/media/plus.svg": "/nailportfolio/static/media/plus.8f2968356c60a5629af75133a4023c50.svg",
     "static/media/strelka.svg": "/nailportfolio/static/media/strelka.373e793f4f5a571a27f304828469b336.svg",
-    "main.1213a396.css.map": "/nailportfolio/static/css/main.1213a396.css.map",
+    "main.8c7e6aef.css.map": "/nailportfolio/static/css/main.8c7e6aef.css.map",
     "main.46874596.js.map": "/nailportfolio/static/js/main.46874596.js.map",
     "787.0d9a1556.chunk.js.map": "/nailportfolio/static/js/787.0d9a1556.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1213a396.css",
+    "static/css/main.8c7e6aef.css",
     "static/js/main.46874596.js"
   ]
 }
