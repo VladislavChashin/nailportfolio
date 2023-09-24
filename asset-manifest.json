@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nailportfolio/static/css/main.5efb0398.css",
-    "main.js": "/nailportfolio/static/js/main.a5d766a5.js",
+    "main.css": "/nailportfolio/static/css/main.1213a396.css",
+    "main.js": "/nailportfolio/static/js/main.46874596.js",
     "static/js/787.0d9a1556.chunk.js": "/nailportfolio/static/js/787.0d9a1556.chunk.js",
     "static/media/header.png": "/nailportfolio/static/media/header.34d848a64f16e8fbce10.png",
     "static/media/IMG_3.png": "/nailportfolio/static/media/IMG_3.08e4a48b8370d1e3fdf7.png",
@@ -14,13 +14,13 @@
     "static/media/IMG_8.png": "/nailportfolio/static/media/IMG_8.03d45d6643e1232c58bc.png",
     "static/media/IMG_1.png": "/nailportfolio/static/media/IMG_1.747384e2ed32bf391921.png",
     "static/media/IMG_7.png": "/nailportfolio/static/media/IMG_7.67d308785edad738681b.png",
-    "static/media/sertfc2.png": "/nailportfolio/static/media/sertfc2.ec04c3fb41e458c2075f.png",
     "static/media/IMG_2-2.png": "/nailportfolio/static/media/IMG_2-2.bbf4db5c054cc6ee6d62.png",
-    "static/media/sertfc1.png": "/nailportfolio/static/media/sertfc1.c7fa380edcc38c9287e6.png",
     "static/media/IMG_3-2.png": "/nailportfolio/static/media/IMG_3-2.0c6dfaa69b9a7fea98a1.png",
-    "static/media/sertfc4.png": "/nailportfolio/static/media/sertfc4.7fb4a128d6815a9d3d02.png",
-    "static/media/sertfc3.png": "/nailportfolio/static/media/sertfc3.b71b9c5c22df91f8b197.png",
+    "static/media/sertfc2.png": "/nailportfolio/static/media/sertfc2.9cc4a389221044d3688d.png",
+    "static/media/sertfc1.png": "/nailportfolio/static/media/sertfc1.7958e767677d82e8725f.png",
+    "static/media/sertfc4.png": "/nailportfolio/static/media/sertfc4.ee15664356a4cd2d4075.png",
     "static/media/nail.png": "/nailportfolio/static/media/nail.662ed6648ca59913f267.png",
+    "static/media/sertfc3.png": "/nailportfolio/static/media/sertfc3.6032ababa3847ec84543.png",
     "static/media/sertificate.png": "/nailportfolio/static/media/sertificate.e4a12dcbd10d05c9724f.png",
     "static/media/header470.jpg": "/nailportfolio/static/media/header470.00fd084d29f35ec2bd6c.jpg",
     "static/media/Onest-Bold.woff2": "/nailportfolio/static/media/Onest-Bold.6bf8979df114ad6be7cf.woff2",
@@ -43,12 +43,12 @@
     "static/media/Group12.svg": "/nailportfolio/static/media/Group12.31c2cc8564b1a9461584dd18f74c71f6.svg",
     "static/media/plus.svg": "/nailportfolio/static/media/plus.8f2968356c60a5629af75133a4023c50.svg",
     "static/media/strelka.svg": "/nailportfolio/static/media/strelka.373e793f4f5a571a27f304828469b336.svg",
-    "main.5efb0398.css.map": "/nailportfolio/static/css/main.5efb0398.css.map",
-    "main.a5d766a5.js.map": "/nailportfolio/static/js/main.a5d766a5.js.map",
+    "main.1213a396.css.map": "/nailportfolio/static/css/main.1213a396.css.map",
+    "main.46874596.js.map": "/nailportfolio/static/js/main.46874596.js.map",
     "787.0d9a1556.chunk.js.map": "/nailportfolio/static/js/787.0d9a1556.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5efb0398.css",
-    "static/js/main.a5d766a5.js"
+    "static/css/main.1213a396.css",
+    "static/js/main.46874596.js"
   ]
 }
