@@ -5,12 +5,19 @@ import './style/curses.scss'
 
 export default function Carusel(props){
     const params = {
-        // slidesPerView: 3,
+        slidesPerView: 1,
+        spaceBetween: 30,
+        breakpoints: {
+            841: {
+                slidesPerView: 2.1,
+            }
+        }
+        
       };
 
     return(
         <>
-            <div className="curses">
+            <div className={`curses ${props.class}`}>
                 <div className="curses_tag">
                     <p className="tag">{props.tag}</p>
                 </div>

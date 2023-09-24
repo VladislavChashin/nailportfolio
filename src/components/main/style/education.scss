@@ -1,6 +1,5 @@
 .dropdown{
     display: flex;
-    justify-content: space-between;
     gap: 74px;
     padding: 80px 0;
     @media (max-width:1080px){
@@ -52,5 +51,11 @@
                 }
             }
         }
+    }
+}
+.dropdown.carier{
+    gap: 105px;
+    @media (max-width:1080px){
+        gap: 50px;
     }
 }

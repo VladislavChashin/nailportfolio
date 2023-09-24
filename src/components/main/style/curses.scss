@@ -1,10 +1,10 @@
 .curses{
     display: flex;
     justify-content: space-between;
-    gap: 74px;
+    gap: 120px;
     padding: 80px 0;
     @media (max-width:1080px){
-        gap: 16px;
+        gap: 60px;
     }
     @media (max-width:840px){
         flex-direction: column;
@@ -29,9 +29,28 @@
             gap: 40px;
         }
         .swiper-container{
-        overflow: hidden;
-    }
+            overflow: hidden;
+            .swiper-wrapper{
+                @media (max-width:840px){
+                    max-width: 280px;
+                }
+                
+            }
+                img{
+                    height: auto;
+                    width: 100%;
+                }
+        }
     }
     
     
+}
+.curses.carusel_two{
+    gap: 55px;
+    @media (max-width:1080px){
+        gap: 20px;
+        .tag{
+            padding: 10px 10px;
+        }
+    }
 }

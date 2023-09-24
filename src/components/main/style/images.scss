@@ -110,3 +110,13 @@
         }
     }
 }
+.images.images_two{
+    gap: 47px;
+    @media (max-width:1080px){
+        gap: 13px;
+        .tag{
+            padding: 10px 20px;
+        }
+    }
+    
+}

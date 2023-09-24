@@ -4,7 +4,7 @@ import plus from '../../source/images/main/plus.svg'
 export default function Dropdown(props){
     return(
         <>
-            <div className="dropdown">
+            <div className={`dropdown ${props.class}`}>
                 <div className="dropdown_tag">
                     <p className="tag">{props.tag}</p>
                 </div>

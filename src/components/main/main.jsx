@@ -21,20 +21,22 @@ export default function Main(){
                     tag={'ХОББИ'}
                     description = {'Веду активный образ жизни'}/>
             <LoveTrevel/>
-            {/* <Carusel data = {curseData}
+            <Carusel data = {curseData}
                     tag ={'КУРСЫ'}
-                    description={'Уделяю внимание личному и профессиональному саморазвитию'}/> */}
+                    description={'Уделяю внимание личному и профессиональному саморазвитию'}/>
             <Dropdown data={carier} 
-                        tag={'КАРЬЕРА'}     
+                        tag={'КАРЬЕРА'}  
+                        class = 'carier'  
                         description={'Получил опыт на различных проектах, крутую команду и яркие эмоции'}/>
             <Competence/>
             <Images class="images_two"
                     data={imagesDataTwo} 
                     tag={'ДЕЯТЕЛЬНОСТЬ'}
                     description = {'Веду активный образ жизни'}/>
-            {/* <Carusel data = {blagodarData}
+            <Carusel data = {blagodarData}
+                    class = 'carusel_two'    
                     tag ={'БЛАГОДАРНОСТИ'}
-                    description={'Благодарность - следствие хорошей работы'}/> */}
+                    description={'Благодарность - следствие хорошей работы'}/>
         </main>
     )
 }
