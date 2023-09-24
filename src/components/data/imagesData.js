@@ -7,8 +7,11 @@ import img6 from '../../source/images/main/block-images/IMG_6.png'
 import img7 from '../../source/images/main/block-images/IMG_7.png'
 import img8 from '../../source/images/main/block-images/IMG_8.png'
 import img9 from '../../source/images/main/block-images/IMG_9.png'
+import img1_2 from '../../source/images/main/IMG_1-2.png'
+import img2_2 from '../../source/images/main/IMG_2-2.png'
+import img3_2 from '../../source/images/main/IMG_3-2.png'
 
-const imagesData = [
+export const imagesData = [
     {
         id: 1,
         src: img1
@@ -46,5 +49,17 @@ const imagesData = [
         src: img9
     },
 ]
-
-export default imagesData
+export const imagesDataTwo = [
+    {
+        id: 1,
+        src: img1_2
+    },
+    {
+        id: 2,
+        src: img2_2
+    },
+    {
+        id: 3,
+        src: img3_2
+    },
+]

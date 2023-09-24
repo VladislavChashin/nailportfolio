@@ -92,5 +92,21 @@
                 grid-area: item-9;
             }
         }
+        .content_img.images_two{
+            grid-template-columns: 1fr 1fr; 
+            grid-template-rows: auto 1fr ;
+            grid-template-areas: 
+            "item-1 item-1"
+            "item-2 item-3"; 
+            @media (max-width:840px){
+                grid-template-columns: 1fr;
+                grid-template-rows:  auto 1fr 1fr;
+                grid-template-areas: 
+                "item-1" 
+                "item-2"
+                "item-3"; 
+                gap: 20px;
+            }
+        }
     }
 }

@@ -1,4 +1,4 @@
-.education{
+.dropdown{
     display: flex;
     justify-content: space-between;
     gap: 74px;
@@ -14,13 +14,13 @@
         gap: 20px;
         padding: 60px 0;
     }
-    .education_tag{
+    .dropdown_tag{
         align-self: flex-start;
         .tag{
             opacity: 0.6;
         }
     }
-    .education_content{
+    .dropdown_content{
         display: flex;
         flex-direction: column;
         gap: 60px;
@@ -47,7 +47,9 @@
                     line-height: normal;
                     letter-spacing: -0.24px;
                 }
-                img{}
+                img{
+                    
+                }
             }
         }
     }
