@@ -9,7 +9,7 @@ export default function Carusel(props){
         spaceBetween: 30,
         breakpoints: {
             841: {
-                slidesPerView: 2.1,
+                slidesPerView: props.arr,
             }
         }
         

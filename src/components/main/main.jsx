@@ -11,6 +11,7 @@ import {curseData, blagodarData} from '../data/courseData'
 
 export default function Main(){
     return(
+        <>
         <main>
             <AboutUs/>
             <Dropdown data={education} 
@@ -21,9 +22,12 @@ export default function Main(){
                     tag={'ХОББИ'}
                     description = {'Веду активный образ жизни'}/>
             <LoveTrevel/>
+        </main>
             <Carusel data = {curseData}
                     tag ={'КУРСЫ'}
+                    arr = {2.8}    
                     description={'Уделяю внимание личному и профессиональному саморазвитию'}/>
+        <main>
             <Dropdown data={carier} 
                         tag={'КАРЬЕРА'}  
                         class = 'carier'  
@@ -33,10 +37,12 @@ export default function Main(){
                     data={imagesDataTwo} 
                     tag={'ДЕЯТЕЛЬНОСТЬ'}
                     description = {'Веду активный образ жизни'}/>
-            <Carusel data = {blagodarData}
-                    class = 'carusel_two'    
-                    tag ={'БЛАГОДАРНОСТИ'}
-                    description={'Благодарность - следствие хорошей работы'}/>
         </main>
+        <Carusel data = {blagodarData}
+                class = 'carusel_two'
+                arr = {3.7}    
+                tag ={'БЛАГОДАРНОСТИ'}
+                description={'Благодарность - следствие хорошей работы'}/>
+        </>
     )
 }
