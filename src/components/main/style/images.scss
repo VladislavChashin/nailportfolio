@@ -58,6 +58,7 @@
 
             img{
                 max-width: 100%;
+                border-radius: 16px;
                 @media (max-width:840px){
                     max-width: none;
                     width: 280px;

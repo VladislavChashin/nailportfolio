@@ -40,7 +40,7 @@ export default function Main(){
         </main>
         <Carusel data = {blagodarData}
                 class = 'carusel_two'
-                arr = {3.7}    
+                arr = {3.3}    
                 tag ={'БЛАГОДАРНОСТИ'}
                 description={'Благодарность - следствие хорошей работы'}/>
         </>

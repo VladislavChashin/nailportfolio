@@ -17,6 +17,7 @@
         align-self: flex-start;
         .tag{
             opacity: 0.6;
+            font-size: 14px;
         }
     }
     .dropdown_content{
@@ -32,12 +33,13 @@
             flex-direction: column;
             gap: 45px;
             .dropdown_block{
-                display: flex;
-                justify-content: space-between;
-                border-bottom: 1px #FFF solid;
-                padding: 0 0 20px 0;
                 cursor: pointer;
-                p{
+                .dropdown_block_text{
+                    display: flex;
+                    justify-content: space-between;
+                    border-bottom: 1px #FFF solid;
+                    padding: 0 0 20px 0;
+                    p{
                     color: #FFF;
                     font-family: OnestReg;
                     font-size: max(min(1.67vw, 24px), 16px);
@@ -45,7 +47,71 @@
                     font-weight: 400;
                     line-height: normal;
                     letter-spacing: -0.24px;
+                    }
                 }
+                .dropdown_block_droped{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    padding-top: 30px;
+                    @media (max-width:840px){
+                        max-width: 280px;
+                    }
+                    .tag_block{
+                        display: flex;
+                        gap: 15px;
+                        align-self: flex-start;
+                        @media (max-width:840px){
+                            flex-direction: column;
+                            max-width:280px;
+                            .tag{
+                                font-size: 9px;
+                            }
+                        }
+                        .tag{
+                            opacity: 0.5;
+                        }
+                    }
+                    .content{
+                        p{
+                            color: #FFF;
+                            font-family: OnestReg;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            margin: 20px 0;
+                            @media (max-width:840px){
+                                font-size: 14px;
+                                margin: 10px 0;
+                            }
+    
+                        }
+                        ol{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 20px;
+                            @media (max-width:840px){
+                                gap: 10px;
+                            }
+                            li{
+                            color: #FFF;
+                            font-family: OnestReg;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            @media (max-width:840px){
+                                font-size: 14px;
+                            }
+    
+                        }
+                        }
+                        
+                    }
+                    
+                }
+                
                 img{
                     
                 }

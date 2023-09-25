@@ -1,11 +1,12 @@
 import './style/index.scss'
 import menu from '../../source/images/header/Menu.svg'
+import HamburgerMenu from './hemburgerMenu'
 export default function Header(){
     return(
         <header>
             <div className="header_content">
                 <nav>
-                    <img src={menu} alt="" />
+                    <HamburgerMenu/>
                 </nav>
                 <div className="header_description">
                     <div className="description_tag">

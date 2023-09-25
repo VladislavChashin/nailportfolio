@@ -3,7 +3,7 @@ import nail from '../../source/images/main/nail.png'
 export default function(){
     return(
         <>
-            <div className="aboutUs">
+            <div className="aboutUs" id='about'>
                 <div className="aboutUs_tags">
                     <p className="tag">О СЕБЕ</p>
                 </div>
