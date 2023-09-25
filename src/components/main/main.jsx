@@ -15,7 +15,8 @@ export default function Main(){
         <main>
             <AboutUs/>
             <Dropdown data={education} 
-                        tag={'ОБРАЗОВАНИЕ'}     
+                        tag={'ОБРАЗОВАНИЕ'}
+                        class = 'obraz'      
                         description={'Имею высшее образование в различных направлениях, что позволяет использовать вертолетный взгляд на бизнес, проекты'}/>
             <Images className="images_one"
                     data={imagesData} 

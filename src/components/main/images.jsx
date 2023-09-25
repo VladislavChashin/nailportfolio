@@ -3,7 +3,7 @@ import './style/images.scss'
 
 export default function Images(props){
     return(
-        <div className={`images ${props.class}` } id='images'>
+        <div className={`images ${props.class}` } id={props.class}>
             <div className="images_tag">
                 <p className="tag">{props.tag}</p>
             </div>

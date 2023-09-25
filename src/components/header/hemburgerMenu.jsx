@@ -24,9 +24,9 @@ function HamburgerMenu() {
             <ul>
                 <li ><Link to="about" spy={true} smooth={true} onClick={() => {setClick(prev => !prev); lockScroll(click)}}>Обо мне</Link></li>
                 <li><Link to="carier" spy={true} smooth={true} onClick={() => {setClick(prev => !prev); lockScroll(click)}}>Карьера</Link></li>
-                <li><Link to="images" spy={true} smooth={true} onClick={() => {setClick(prev => !prev); lockScroll(click)}}>Награды</Link></li>
-                <li><Link to="work" spy={true} smooth={true} onClick={() => {setClick(prev => !prev); lockScroll(click)}}>Образование</Link></li>
-                <li><Link to="work" spy={true} smooth={true} onClick={() => {setClick(prev => !prev); lockScroll(click)}}>Деятельность</Link></li>
+                <li><Link to="carusel_two" spy={true} smooth={true} onClick={() => {setClick(prev => !prev); lockScroll(click)}}>Награды</Link></li>
+                <li><Link to="obraz" spy={true} smooth={true} onClick={() => {setClick(prev => !prev); lockScroll(click)}}>Образование</Link></li>
+                <li><Link to="images_two" spy={true} smooth={true} onClick={() => {setClick(prev => !prev); lockScroll(click)}}>Деятельность</Link></li>
             </ul>
         </div>
     </>

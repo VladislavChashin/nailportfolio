@@ -20,7 +20,7 @@ export default function Carusel(props){
 
     return(
         <>
-            <div className={`curses ${props.class}`}>
+            <div className={`curses ${props.class}`} id={props.class}>
                 <div className="curses_tag">
                     <p className="tag">{props.tag}</p>
                 </div>
