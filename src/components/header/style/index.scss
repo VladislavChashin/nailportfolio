@@ -102,6 +102,9 @@ header{
                             line-height: normal;
                             letter-spacing: -0.36px;
                             list-style-type: none;
+                            @media (max-width:840px){
+                                font-size: 24px;
+                            }
                             &:after{
                                 display: block;
                                 content:" ";
