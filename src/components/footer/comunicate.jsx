@@ -1,5 +1,5 @@
 import strelka from '../../source/images/footer/strelka.svg'
-import tg from '../../source/images/footer/tg.png'
+import tg from '../../source/images/footer/tg.svg'
 import vk from '../../source/images/footer/vk.png'
 import './style/comunicate.scss'
 

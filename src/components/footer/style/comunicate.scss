@@ -66,15 +66,21 @@
                 &:hover{
                     background-color: #3A66FF;
                 }
+                &:nth-child(1){
+                    img{
+                        margin-right: 5px;
+                    }   
+                }
                 img{
                     max-width: 54px;
+                    &:nth-child(2){
+                        margin-right: 5px;
+                    }
                     @media (max-width:840px){
                         max-width: 34px;
-                    }
-                
-                
-                
-            }
+                    }   
+                    
+                }
             }
             
         }
