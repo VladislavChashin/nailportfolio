@@ -37,7 +37,8 @@ export default function Main(){
             <Images class="images_two"
                     data={imagesDataTwo} 
                     tag={'ДЕЯТЕЛЬНОСТЬ'}
-                    description = {'Веду активный образ жизни'}/>
+                    type={'video'}
+                    description = {'Помог осуществить ряд крупных и уникальных проектов'}/>
         </main>
         <Carusel data = {blagodarData}
                 class = 'carusel_two'

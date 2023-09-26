@@ -22,11 +22,11 @@ function HamburgerMenu() {
         </div>
         <div className={`menu_content ${click === true ? 'open' : ''}`}>
             <ul>
-                <li ><Link to="about" spy={true} smooth={true} onClick={() => {setClick(prev => !prev); lockScroll(click)}}>Обо мне</Link></li>
-                <li><Link to="carier" spy={true} smooth={true} onClick={() => {setClick(prev => !prev); lockScroll(click)}}>Карьера</Link></li>
-                <li><Link to="carusel_two" spy={true} smooth={true} onClick={() => {setClick(prev => !prev); lockScroll(click)}}>Награды</Link></li>
-                <li><Link to="obraz" spy={true} smooth={true} onClick={() => {setClick(prev => !prev); lockScroll(click)}}>Образование</Link></li>
-                <li><Link to="images_two" spy={true} smooth={true} onClick={() => {setClick(prev => !prev); lockScroll(click)}}>Деятельность</Link></li>
+                <li ><Link to="about" spy={true} smooth={true} duration = {1000} onClick={() => {setClick(prev => !prev); lockScroll(click)}}>Обо мне</Link></li>
+                <li><Link to="carier" spy={true} smooth={true} duration = {1000} onClick={() => {setClick(prev => !prev); lockScroll(click)}}>Карьера</Link></li>
+                <li><Link to="carusel_two" spy={true} smooth={true} duration = {1000} onClick={() => {setClick(prev => !prev); lockScroll(click)}}>Награды</Link></li>
+                <li><Link to="obraz" spy={true} smooth={true} duration = {1000} onClick={() => {setClick(prev => !prev); lockScroll(click)}}>Образование</Link></li>
+                <li><Link to="images_two" spy={true} smooth={true} duration = {1000} onClick={() => {setClick(prev => !prev); lockScroll(click)}}>Деятельность</Link></li>
             </ul>
         </div>
     </>
