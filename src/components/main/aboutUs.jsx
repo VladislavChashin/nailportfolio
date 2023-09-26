@@ -31,7 +31,7 @@ export default function(){
                         РЭУ им. Г.В .Плеханова
                         </p>                          
                     </div>
-                    <div className="content_image">
+                    <div className="content_image wow animate__animated animate__fadeIn">
                         <img src={nail} alt="" />
                     </div>
                 </div>

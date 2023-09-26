@@ -1,5 +1,7 @@
 import competenceData  from "../data/competenceData"
 import './style/competence.scss'
+import {Link} from 'react-scroll'
+
 export default function Competence(){
     return(
         <>
@@ -19,7 +21,7 @@ export default function Competence(){
                             </div>
                         )}
                     </div>
-                    <a href="">Связаться со мной</a>
+                    <Link to="comunicate" spy={true} smooth={true} duration = {1000} >Связаться со мной</Link>
                 </div>
             </div>
         </>

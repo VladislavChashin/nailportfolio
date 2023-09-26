@@ -49,15 +49,34 @@
         .icons{
             display: flex;
             gap: 33px;
-            img{
+            div{
+                width: 84px;
+                height: 84px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #000;
+                border-radius: 60px;
+                transition: 0.5s;
+                cursor: pointer;
                 @media (max-width:840px){
-                    max-width: 64px;
+                    width: 64px;
+                    height: 64px;
                 }
-                transition: 0.1s;
                 &:hover{
-                    filter: invert(26%) sepia(98%) saturate(1764%) hue-rotate(220deg) brightness(168%) contrast(100%);
+                    background-color: #3A66FF;
                 }
+                img{
+                    max-width: 54px;
+                    @media (max-width:840px){
+                        max-width: 34px;
+                    }
+                
+                
+                
             }
+            }
+            
         }
     }
 }

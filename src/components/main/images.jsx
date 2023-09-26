@@ -26,7 +26,7 @@ export default function Images(props){
                     <div className={`content_img ${props.class}`}>
                         {props.data.map(array =>
                         <>
-                            <div className={`video item-${array.id}`} onClick={() => {setOpen(prev => !prev); setData(array); lockScroll(open)}}>
+                            <div className={`video item-${array.id} wow animate__animated animate__fadeIn`} onClick={() => {setOpen(prev => !prev); setData(array); lockScroll(open)}}>
                                 <img src={array.poster} alt="nail" key={array.id} /> 
                                 <img className="play" src={play} alt="" />
                             </div>   
@@ -45,7 +45,7 @@ export default function Images(props){
                     :
 
                     <div className={`content_img ${props.class}`}>
-                        {props.data.map(array => <img className={`item-${array.id}`} src={array.src} alt="nail" key={array.id} /> )}
+                        {props.data.map(array => <img className={`item-${array.id} wow animate__animated animate__fadeIn` } src={array.src} alt="nail" key={array.id} /> )}
                     </div>
                 }
             </div>
