@@ -26,15 +26,15 @@ export default function Images(props){
                     <div className={`content_img ${props.class}`}>
                         {props.data.map(array =>
                         <>
-                            <div className={`video item-${array.id} wow animate__animated animate__fadeIn`} onClick={() => {setOpen(prev => !prev); setData(array); lockScroll(open)}}>
+                            <div className={`video item-${array.id} wow animate__animated animate__fadeIn animate__slowe`} onClick={() => {setOpen(prev => !prev); setData(array); lockScroll(open)}}>
                                 <img src={array.poster} alt="nail" key={array.id} /> 
                                 <img className="play" src={play} alt="" />
                             </div>   
                         </>   
                         )}
                         {open === true ? 
-                            <div className='video_open' onClick={() => {setOpen(prev => !prev); lockScroll(open)}}>
-                                <video autoPlay controls poster={data.poster}>
+                            <div className='video_open animate__animated animate__fadeIn animate__slowe' onClick={() => {setOpen(prev => !prev); lockScroll(open);}}>
+                                <video autoPlay controls poster={data.poster} onClick={(e) => e.stopPropagation()}>
                                     <source src={data.src} type="video/mp4" />
                                 </video>
                             </div>
@@ -44,7 +44,7 @@ export default function Images(props){
                     
                     :
 
-                    <div className={`content_img ${props.class}`}>
+                    <div className={`content_img ${props.class} wow animate__animated animate__fadeIn animate__slowe`}>
                         {props.data.map(array => <img className={`item-${array.id} wow animate__animated animate__fadeIn` } src={array.src} alt="nail" key={array.id} /> )}
                     </div>
                 }

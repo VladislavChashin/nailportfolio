@@ -25,6 +25,7 @@ export default function Main(){
             <LoveTrevel/>
         </main>
             <Carusel data = {curseData}
+                    class = 'carusel_one'
                     tag ={'КУРСЫ'}
                     arr = {2.8}    
                     description={'Уделяю внимание личному и профессиональному саморазвитию'}/>
@@ -42,7 +43,7 @@ export default function Main(){
         </main>
         <Carusel data = {blagodarData}
                 class = 'carusel_two'
-                arr = {3.3}    
+                arr = {4.3}    
                 tag ={'БЛАГОДАРНОСТИ'}
                 description={'Благодарность - следствие хорошей работы'}/>
         </>

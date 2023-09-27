@@ -4,7 +4,6 @@ footer{
     width: 100%;
     @media (max-width:840px){
         flex-direction: column;
-        align-items: center;
         margin: 0 auto;
         gap: 20px;
         padding: 60px 0;
@@ -17,13 +16,18 @@ footer{
         
         @media (max-width: 768px){
             padding: 60px 20px;
-            max-width: 280px;
         }
         ul{
             display: flex;
             justify-content: center;
             gap: 60px;
             padding: 0;
+            @media (max-width:1440px){
+                gap: 30px;
+            }
+            @media (max-width:1024px){
+                gap: 10px;
+            }
             @media (max-width:840px){
                 flex-direction: column;
                 gap: 30px;
@@ -34,12 +38,15 @@ footer{
                 a{
                     color: #FFF;
                     font-family: OnestReg;
-                    font-size: 24px;
+                    font-size: 20px;
                     font-style: normal;
                     font-weight: 400;
                     line-height: normal;
                     letter-spacing: -0.24px;
                     text-decoration: none;
+                    @media (max-width:840px){
+                        font-size: 24px;
+                    }
                     &:after{
                         display: block;
                         content:" ";

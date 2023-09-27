@@ -1,5 +1,5 @@
-import blue from '../../source/images/main/blue_check.svg'
-import white from '../../source/images/main/white_check.svg'
+import   blue from '../../source/images/main/white_check.svg'
+import white from '../../source/images/main/gray_check.svg'
 
 const loveTrevelData = [
     {

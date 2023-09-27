@@ -8,10 +8,9 @@
     }
     @media (max-width:840px){
         flex-direction: column;
-        align-items: center;
-        width: 280px;
         margin: 0 auto;
         padding-bottom: 60px;
+        gap: 20px;
     }
     .aboutUs_tags{
         align-self: flex-start;
@@ -44,11 +43,7 @@
                 letter-spacing: -0.24px;
                 @media (max-width:840px){
                     font-size: 16px;
-                    max-width: 280px;
                     br{ display: none}
-                    &:nth-child(3){
-                        display: none;
-                    }
                 }
             }
         }

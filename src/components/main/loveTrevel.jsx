@@ -3,8 +3,8 @@ import './style/loveTrevel.scss'
 
 
 export default function LoveTrevel(){
-    return(
-        <div className="loveTrevel">
+    return( 
+        <div className="loveTrevel wow animate__animated animate__fadeIn animate__slowe">
             <span></span>
             <div className="loveTrevel_content">
                 <div className="content_description">

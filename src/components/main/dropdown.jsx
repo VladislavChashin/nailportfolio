@@ -5,7 +5,7 @@ import { useState } from 'react'
 export default function Dropdown(props){
     return(
         <>
-            <div className={`dropdown ${props.class}`} id={props.class}>
+            <div className={`dropdown ${props.class} wow animate__animated animate__fadeIn animate__slowe`} id={props.class}>
                 <div className="dropdown_tag">
                     <p className="tag">{props.tag}</p>
                 </div>
@@ -25,12 +25,12 @@ export default function Dropdown(props){
 function DropdownBlocks({props}){
     const[drop, setDrop] = useState(false)
     return(
-        <div className="dropdown_block" onClick={()=> setDrop(prev => !prev)}>
+        <div className="dropdown_block wow animate__animated animate__fadeIn animate__slowe" onClick={()=> setDrop(prev => !prev)}>
             <div className="dropdown_block_text">
-                <p>{props.title}</p> <img src={plus} alt="" />
+                <p>{props.title}</p> <img src={plus} alt="" className={drop === true ? 'active' : 'noActive'}/>
             </div>
             {props.description === undefined || drop === false ? <></>: 
-                <div className="dropdown_block_droped" >
+                <div className="dropdown_block_droped wow animate__animated animate__fadeIn" >
                     <div className="tag_block">
                         <p className='tag'>{props.description.post}</p>
                         <p className='tag'>{props.description.time}</p>

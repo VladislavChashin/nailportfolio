@@ -5,7 +5,7 @@ import {Link} from 'react-scroll'
 export default function Competence(){
     return(
         <>
-            <div className="competence">
+            <div className="competence compen wow animate__animated animate__fadeIn animate__slowe">
                 <div className="competence_tag">
                     <p className="tag">КОМПЕТЕНЦИИ</p>
                 </div>

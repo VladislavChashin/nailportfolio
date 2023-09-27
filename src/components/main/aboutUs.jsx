@@ -3,7 +3,7 @@ import nail from '../../source/images/main/nail.png'
 export default function(){
     return(
         <>
-            <div className="aboutUs" id='about'>
+            <div className="aboutUs wow animate__animated animate__fadeIn animate__slower" id='about'>
                 <div className="aboutUs_tags">
                     <p className="tag">О СЕБЕ</p>
                 </div>
@@ -31,7 +31,7 @@ export default function(){
                         РЭУ им. Г.В .Плеханова
                         </p>                          
                     </div>
-                    <div className="content_image wow animate__animated animate__fadeIn">
+                    <div className="content_image">
                         <img src={nail} alt="" />
                     </div>
                 </div>
