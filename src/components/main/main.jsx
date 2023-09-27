@@ -18,7 +18,7 @@ export default function Main(){
                         tag={'ОБРАЗОВАНИЕ'}
                         class = 'obraz'      
                         description={'Имею высшее образование в различных направлениях, что позволяет использовать вертолетный взгляд на бизнес, проекты'}/>
-            <Images className="images_one"
+            <Images class="images_one"
                     data={imagesData} 
                     tag={'ХОББИ'}
                     description = {'Веду активный образ жизни'}/>

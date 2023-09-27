@@ -153,6 +153,7 @@
                 backdrop-filter: blur(10px);
                 video{
                     max-width: 100%;
+                    z-index: 1000;
                 }
             }
         }
