@@ -2,11 +2,11 @@ header{
     width: 100%;
     height: 90vh;
     margin: 0 auto;
-    background-image: url('../../../source/images/header/header.png');
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url('../../../source/images/header/header.png'), lightgray -37.6px -141.936px / 309.14% 123.656% no-repeat;
     background-size: cover;
     @media (max-width: 470px){
         height: 600px;
-        background-image: url('../../../source/images/header/header470.jpg');
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url('../../../source/images/header/header470.jpg'), lightgray -37.6px -141.936px / 309.14% 123.656% no-repeat;
         background-repeat:no-repeat;
         background-position: center center;
     }
