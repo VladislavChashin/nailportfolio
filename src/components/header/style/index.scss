@@ -135,7 +135,12 @@ header{
             
         }
         .header_description{
-            
+            @media (max-width: 840px){
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                align-items: center;
+            }
             .description_tag{
                 display: flex;
                 gap: 8px;
@@ -163,6 +168,16 @@ header{
                 }
                 @media (max-width: 470px){
                     text-align: center;
+                    font-size:60px;
+                }
+                @media (max-width: 384px){
+                    font-size: 55px;
+                }
+                @media (max-width: 355px){
+                    font-size: 50px;
+                }
+                @media (max-width: 330px){
+                    font-size: 46px;
                 }
             }
         }
