@@ -33,7 +33,7 @@ export default function Carusel(props){
     const params = {
         slidesPerView: 1.2,
         spaceBetween: 30,
-        slidesOffsetBefore: 10 / 100 * width,
+        slidesOffsetBefore: 20 / 100 * width,
         breakpoints: {
             310: {
                 slidesOffsetBefore: 20,
@@ -48,11 +48,11 @@ export default function Carusel(props){
             },
             1024: {
                 slidesPerView: props.arr + 0.7,
-                // slidesOffsetBefore: 100,
+                slidesOffsetBefore: 24 / 100 * width,
             },
-            1440: {
+            1441: {
                 slidesPerView: props.arr + 1.7,
-                // slidesOffsetBefore: 140,
+                slidesOffsetBefore: 20.5 / 100 * width,
             },
         },
         
