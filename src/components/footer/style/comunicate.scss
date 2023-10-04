@@ -59,6 +59,9 @@
                 border-radius: 60px;
                 transition: 0.5s;
                 cursor: pointer;
+                a{
+                    display: flex;
+                }
                 @media (max-width:840px){
                     width: 64px;
                     height: 64px;

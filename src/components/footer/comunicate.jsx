@@ -14,10 +14,10 @@ export default function Comunicate(){
                     </div>
                     <div className="icons">
                         <div>
-                            <img src={tg} alt="" />
+                            <a href="https://t.me/nyakubaliev"  target="_blank"><img src={tg} alt="" /></a>
                         </div>
                         <div>
-                            <img src={vk} alt="" />
+                            <a href="https://vk.me/nail_yakubaliev"  target="_blank"><img src={vk} alt="" /></a>
                         </div>
                         
                     </div>
