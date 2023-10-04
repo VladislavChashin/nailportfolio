@@ -32,10 +32,10 @@ function DropdownBlocks({props}){
             {props.description === undefined || drop === false ? <></>: 
                 <div className="dropdown_block_droped wow animate__animated animate__fadeIn" >
                     <div className="tag_block">
-                        <p className='tag'>{props.description.post}</p>
-                        <p className='tag'>{props.description.time}</p>
+                        <p className={props.description.content === true ? 'tag' : 'tag edu'}>{props.description.post}</p>
+                        <p className={props.description.content === true ? 'tag' : 'tag edu'}>{props.description.time}</p>
                     </div>
-                    <div className="content">
+                    {props.description.content === true ? <div className="content">
                         <p>{props.description.pred_text}</p>
                         <div className="duties">
                             <p>Обязаности: </p>
@@ -59,7 +59,7 @@ function DropdownBlocks({props}){
                                 </ol>
                             </div>
                         }
-                    </div>
+                    </div>: <></>}
                 </div>
             }
         </div>
