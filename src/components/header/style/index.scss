@@ -147,6 +147,20 @@ header{
                 @media (max-width: 470px){
                     justify-content: center;
                     .tag{
+                        font-size: 13px;
+                        letter-spacing: -0.1px;
+                        padding: 10px 20px;
+                    }
+                }
+                @media (max-width: 400px){
+                    .tag{
+                        font-size: 10px;
+                        letter-spacing: -0.1px;
+                        padding: 10px 20px;
+                    }
+                }
+                @media (max-width: 374px){
+                    .tag{
                         font-size: 10px;
                         letter-spacing: -0.1px;
                         padding: 8px 12px;
@@ -169,6 +183,9 @@ header{
                 @media (max-width: 470px){
                     text-align: center;
                     font-size:60px;
+                    letter-spacing:  -0.46px;
+                    line-height: 48px; 
+                    margin-top: 20px;
                 }
                 @media (max-width: 384px){
                     font-size: 55px;
