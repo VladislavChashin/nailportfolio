@@ -76,6 +76,9 @@
                 }
                 img{
                     max-width: 67px;
+                    &:nth-child(3){
+                        filter: contrast(100);
+                    }
                 }
                 p{
                     color: #FFF;

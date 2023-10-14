@@ -1,6 +1,7 @@
 import strelka from '../../source/images/footer/strelka.svg'
 import tg from '../../source/images/footer/tg.svg'
 import vk from '../../source/images/footer/vk.png'
+import email from '../../source/images/footer/mail.png'
 import './style/comunicate.scss'
 
 export default function Comunicate(){
@@ -18,6 +19,9 @@ export default function Comunicate(){
                         </div>
                         <div>
                             <a href="https://vk.me/nail_yakubaliev"  target="_blank"><img src={vk} alt="" /></a>
+                        </div>
+                        <div>
+                            <a href="https://vk.me/nail_yakubaliev" style={{filter: 'invert(1)'}} target="_blank"><img src={email} alt="" /></a>
                         </div>
                         
                     </div>
