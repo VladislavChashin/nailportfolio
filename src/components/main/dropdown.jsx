@@ -27,7 +27,10 @@ function DropdownBlocks({props}){
     return(
         <div className="dropdown_block wow animate__animated animate__fadeIn animate__slowe" onClick={()=> setDrop(prev => !prev)}>
             <div className="dropdown_block_text">
-                <p>{props.title}</p> <img src={plus} alt="" className={drop === true ? 'active' : 'noActive'}/>
+                {props.image === undefined ? <p>{props.title}</p>:
+                <div className="dropdown_block_text_icon"><img src={props.image} alt="" /><p>{props.title}</p></div> 
+                }
+                <img src={plus} alt="" className={drop === true ? 'active' : 'noActive'}/>
             </div>
             {props.description === undefined || drop === false ? <></>: 
                 <div className="dropdown_block_droped wow animate__animated animate__fadeIn" >
@@ -37,12 +40,13 @@ function DropdownBlocks({props}){
                     </div>
                     {props.description.content === true ? <div className="content">
                         <p>{props.description.pred_text}</p>
+                        {props.description.duties === undefined ? <></>:
                         <div className="duties">
                             <p>Обязаности: </p>
                             <ol>
                                 {props.description.duties.map((arr, idx) => <li key={idx} >{arr}</li> )}
                             </ol>
-                        </div>
+                        </div>}
                         {props.description.achievements === undefined ? <></>:
                             <div className="achievements">
                                 <p>Достижения: </p>

@@ -18,11 +18,10 @@ export default function Main(){
                         tag={'ОБРАЗОВАНИЕ'}
                         class = 'obraz'      
                         description={'Имею высшее образование в различных направлениях, что позволяет использовать вертолетный взгляд на бизнес, проекты'}/>
-            <Images class="images_one"
-                    data={imagesData} 
-                    tag={'ХОББИ'}
-                    description = {'Веду активный образ жизни'}/>
-            <LoveTrevel/>
+            <Dropdown data={carier} 
+                        tag={'КАРЬЕРА'}  
+                        class = 'carier'  
+                        description={'Получил опыт на различных проектах, крутую команду и яркие эмоции'}/>
         </main>
             <Carusel data = {curseData}
                     class = 'carusel_one'
@@ -30,11 +29,13 @@ export default function Main(){
                     arr = {2.8}    
                     description={'Уделяю внимание личному и профессиональному саморазвитию'}/>
         <main>
-            <Dropdown data={carier} 
-                        tag={'КАРЬЕРА'}  
-                        class = 'carier'  
-                        description={'Получил опыт на различных проектах, крутую команду и яркие эмоции'}/>
+            
             <Competence/>
+            <Images class="images_one"
+                    data={imagesData} 
+                    tag={'ХОББИ'}
+                    description = {'Веду активный образ жизни'}/>
+            <LoveTrevel/>
             <Images class="images_two"
                     data={imagesDataTwo} 
                     tag={'ДЕЯТЕЛЬНОСТЬ'}
