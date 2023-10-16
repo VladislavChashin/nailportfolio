@@ -1,21 +1,15 @@
 import { Link } from "react-scroll";
 import Comunicate from "./comunicate";
+import prez from '../../source/prez.pdf'
 import './style/footer.scss'
-import fileSaver from 'file-saver';
 
 export default function Footer(){
-    const saveFile = () => {
-        fileSaver.saveAs(
-          process.env.REACT_APP_CLIENT_URL + "/resources/cv.pdf",
-          "MyCV.pdf"
-        );
-    }
     return(
         <footer className="animate__animated animate__fadeIn">
             <Comunicate/>
-            <button className="cv" onClick={() => saveFile()}>
+            <a className="cv" href={prez} download>
                 Скачать презентацию обо мне
-            </button>
+            </a>
             <div className="footer_content" >
                 <ul>
                     <li> <Link to="about" spy={true} smooth={true} duration = {1000} href="">Обо мне</Link> </li>

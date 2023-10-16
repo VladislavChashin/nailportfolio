@@ -8,7 +8,7 @@ footer{
         gap: 20px;
         padding: 60px 0;
     }
-    button{
+    .cv{
         display: flex;
         max-width: 500px;
         padding: 15px 100px;
@@ -26,6 +26,7 @@ footer{
         margin: 70px auto 0;
         cursor: pointer;
         border: 0px;
+        text-decoration: none;
         @media (max-width: 518px){
             font-size: 16px;
             max-width: 280px;
@@ -90,8 +91,8 @@ footer{
         }
         h1{
             color: #FFF;
-            font-family: OnestReg;
-            font-size: 8.2vw;
+            font-family: OnestBold;
+            font-size: 8.0vw;
             font-style: normal;
             font-weight: 700;
             line-height: normal;

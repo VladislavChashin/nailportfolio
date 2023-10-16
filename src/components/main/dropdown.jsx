@@ -57,7 +57,7 @@ function DropdownBlocks({props}){
                         }
                         {props.description.SMI === undefined ? <></>:
                             <div className="achievements">
-                                <p>Упоминяния в СМИ: </p>
+                                <p>Упоминания в СМИ: </p>
                                 <ol>
                                     {props.description.SMI.map((arr, idx) => <li key={idx} >{arr}</li> )}
                                 </ol>
