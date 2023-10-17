@@ -15,13 +15,13 @@ export default function Comunicate(){
                     </div>
                     <div className="icons">
                         <div>
-                            <a href="https://t.me/nyakubaliev"  target="_blank"><img src={tg} alt="" /></a>
+                            <a href="https://t.me/nyakubaliev"  target="_blank" rel="noreferrer"><img src={tg} alt="" /></a>
                         </div>
                         <div>
-                            <a href="https://vk.me/nail_yakubaliev"  target="_blank"><img src={vk} alt="" /></a>
+                            <a href="https://vk.me/nail_yakubaliev"  target="_blank" rel="noreferrer"><img src={vk} alt="" /></a>
                         </div>
                         <div>
-                            <a href="https://vk.me/nail_yakubaliev" style={{filter: 'invert(1)'}} target="_blank"><img src={email} alt="" /></a>
+                            <a href="mailto:nail-0505@mail.ru" style={{filter: 'invert(1)'}} target="_blank" rel="noreferrer"><img src={email} alt="" /></a>
                         </div>
                         
                     </div>

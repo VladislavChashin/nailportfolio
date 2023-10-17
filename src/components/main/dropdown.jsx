@@ -55,14 +55,14 @@ function DropdownBlocks({props}){
                                 </ol>
                             </div>
                         }
-                        {props.description.SMI === undefined ? <></>:
+                        {/* {props.description.SMI === undefined ? <></>:
                             <div className="achievements">
                                 <p>Упоминания в СМИ: </p>
                                 <ol>
                                     {props.description.SMI.map((arr, idx) => <li key={idx} >{arr}</li> )}
                                 </ol>
                             </div>
-                        }
+                        } */}
                     </div>: <></>}
                 </div>
             }

@@ -2,6 +2,7 @@ import sertificate from '../../source/images/main/sertificate.png'
 import sertificate1 from '../../source/images/main/sertificate1.png'
 import sertificate2 from '../../source/images/main/sertificate2.png'
 import sertificate3 from '../../source/images/main/sertificate3.png'
+import sertificate3full from '../../source/images/main/sertificate3full.png'
 import sertificate4 from '../../source/images/main/sertificate4.png'
 
 import sertfc1 from '../../source/images/main/reward/sertfc1.png'
@@ -31,7 +32,8 @@ export const curseData = [
     },
     {
         id: 4,
-        img: sertificate3
+        img: sertificate3,
+        full: sertificate3full
     },
     {
         id: 5,

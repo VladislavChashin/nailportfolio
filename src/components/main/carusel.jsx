@@ -72,7 +72,7 @@ export default function Carusel(props){
                 <Swiper {...params}>
                         {props.data.map((item, idx) => (
                             <div  key={idx} className="wow animate__animated animate__fadeIn animate__slowe">
-                                <img src={item.img} alt="" onClick={() => {setOpen(prev => !prev); setData(item.img); lockScroll(open)}}/>
+                                <img src={item.img} alt="" onClick={() => {setOpen(prev => !prev); setData(item.full === undefined ? item.img : item.full); lockScroll(open)}}/>
                             </div>
                         ))}
                 </Swiper>
