@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nailportfolio/static/css/main.53d1c2ac.css",
-    "main.js": "/nailportfolio/static/js/main.0769b15c.js",
+    "main.js": "/nailportfolio/static/js/main.d646b3f5.js",
     "static/js/787.0d9a1556.chunk.js": "/nailportfolio/static/js/787.0d9a1556.chunk.js",
     "static/media/IMG_1.MOV": "/nailportfolio/static/media/IMG_1.f926a83088fab7869714.MOV",
     "static/media/IMG_3.mp4": "/nailportfolio/static/media/IMG_3.52632432b4c0cfa8bdcd.mp4",
@@ -15,10 +15,11 @@
     "static/media/sertfc10.png": "/nailportfolio/static/media/sertfc10.1400bf0f74440f25b470.png",
     "static/media/header.png": "/nailportfolio/static/media/header.34d848a64f16e8fbce10.png",
     "static/media/sertfc9.png": "/nailportfolio/static/media/sertfc9.c55ee58342d137b0cb70.png",
+    "static/media/sertificate3full.png": "/nailportfolio/static/media/sertificate3full.7b823700837af8ed44b4.png",
+    "static/media/sertificate3.png": "/nailportfolio/static/media/sertificate3.62c6d418721cbb2eb6ba.png",
     "static/media/mirea.svg": "/nailportfolio/static/media/mirea.c5bbd6308c782121aaec7717cc6d51a7.svg",
     "static/media/IMG_5.png": "/nailportfolio/static/media/IMG_5.eff9c4bf1946ca443c84.png",
     "static/media/sertificate1.png": "/nailportfolio/static/media/sertificate1.658d4405c6135c399fc7.png",
-    "static/media/sertificate3.png": "/nailportfolio/static/media/sertificate3.85e6175d4001585e5055.png",
     "static/media/sertificate2.png": "/nailportfolio/static/media/sertificate2.ca6cc0fdcea63d825765.png",
     "static/media/reu.svg": "/nailportfolio/static/media/reu.51b6acd6c011900e99310c31958e8c8c.svg",
     "static/media/IMG_4.png": "/nailportfolio/static/media/IMG_4.03d45d6643e1232c58bc.png",
@@ -57,11 +58,11 @@
     "static/media/strelka.svg": "/nailportfolio/static/media/strelka.373e793f4f5a571a27f304828469b336.svg",
     "static/media/play1.svg": "/nailportfolio/static/media/play1.1ff1f0df864560bec11c9966fada2191.svg",
     "main.53d1c2ac.css.map": "/nailportfolio/static/css/main.53d1c2ac.css.map",
-    "main.0769b15c.js.map": "/nailportfolio/static/js/main.0769b15c.js.map",
+    "main.d646b3f5.js.map": "/nailportfolio/static/js/main.d646b3f5.js.map",
     "787.0d9a1556.chunk.js.map": "/nailportfolio/static/js/787.0d9a1556.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.53d1c2ac.css",
-    "static/js/main.0769b15c.js"
+    "static/js/main.d646b3f5.js"
   ]
 }
