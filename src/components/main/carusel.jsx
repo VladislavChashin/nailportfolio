@@ -54,6 +54,10 @@ export default function Carusel(props){
                 slidesPerView: props.arr + 1.7,
                 slidesOffsetBefore: 20.5 / 100 * width,
             },
+            1925: {
+                slidesPerView: props.arr + 3.7,
+                slidesOffsetBefore: 17.9 / 100 * width,
+            },
         },
         
         
