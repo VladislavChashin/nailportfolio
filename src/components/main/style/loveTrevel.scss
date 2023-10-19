@@ -43,7 +43,7 @@
             }
             .countres_grid{
                 display: grid; 
-                grid-template-columns: 150px 171px 177px; 
+                grid-template-columns: 175px 186px 195px; 
                 grid-template-rows: 1fr 1fr 1fr 1fr; 
                 gap: 24px 0px; 
                 justify-content: space-between;
@@ -53,10 +53,22 @@
                     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
                     gap: 16px;
                 }
+                .countre{
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                    img{
+                        width: 20px;
+                    }
+                }
                 p{
                     display: flex;
                     justify-content: space-between;
                     font-size: max(min(1.67vw, 24px), 16px);
+                    flex-grow: 2;
+                    img{
+                        width: auto;
+                    }
                     @media (max-width:840px){
                         &:nth-child(3){
                             order: 8;
@@ -67,6 +79,13 @@
                         &:nth-child(9){
                             order: 10;
                         }
+                        &:nth-child(11){
+                            order: 13;
+                        }
+                        &:nth-child(12){
+                            order: 11;
+                        }
+                        
                     }
                 }
             }
