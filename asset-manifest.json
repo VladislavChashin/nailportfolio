@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nailportfolio/static/css/main.cd1f9f09.css",
-    "main.js": "/nailportfolio/static/js/main.f2ec145e.js",
+    "main.css": "/nailportfolio/static/css/main.db42e6b3.css",
+    "main.js": "/nailportfolio/static/js/main.36eb3e03.js",
     "static/js/787.0d9a1556.chunk.js": "/nailportfolio/static/js/787.0d9a1556.chunk.js",
     "static/media/IMG_1.MOV": "/nailportfolio/static/media/IMG_1.f926a83088fab7869714.MOV",
     "static/media/IMG_3.mp4": "/nailportfolio/static/media/IMG_3.52632432b4c0cfa8bdcd.mp4",
@@ -31,13 +31,13 @@
     "static/media/sertfc2.png": "/nailportfolio/static/media/sertfc2.9cc4a389221044d3688d.png",
     "static/media/IMG_3.jpg": "/nailportfolio/static/media/IMG_3.39121d7bf1535a2fbe2d.jpg",
     "static/media/sertfc1.png": "/nailportfolio/static/media/sertfc1.7958e767677d82e8725f.png",
-    "static/media/IMG_1.jpg": "/nailportfolio/static/media/IMG_1.01b2cf062e66fb589c4f.jpg",
+    "static/media/header470.jpg": "/nailportfolio/static/media/header470.e969f1d9df455b8da697.jpg",
     "static/media/sertfc4.png": "/nailportfolio/static/media/sertfc4.ee15664356a4cd2d4075.png",
     "static/media/nail.png": "/nailportfolio/static/media/nail.662ed6648ca59913f267.png",
     "static/media/sertfc3.png": "/nailportfolio/static/media/sertfc3.6032ababa3847ec84543.png",
     "static/media/IMG_1-2.jpg": "/nailportfolio/static/media/IMG_1-2.11e95ba69ff57c7c557d.jpg",
     "static/media/sertificate.png": "/nailportfolio/static/media/sertificate.e4a12dcbd10d05c9724f.png",
-    "static/media/header470.jpg": "/nailportfolio/static/media/header470.00fd084d29f35ec2bd6c.jpg",
+    "static/media/abhaz.jpg": "/nailportfolio/static/media/abhaz.76b9a52b88e71594eee9.jpg",
     "static/media/Onest-Bold.woff2": "/nailportfolio/static/media/Onest-Bold.6bf8979df114ad6be7cf.woff2",
     "static/media/Onest-Regular.woff2": "/nailportfolio/static/media/Onest-Regular.3be157b7ce8462d1e23c.woff2",
     "static/media/mail.png": "/nailportfolio/static/media/mail.2787325b72614a0f7e8f.png",
@@ -59,12 +59,12 @@
     "static/media/plus.svg": "/nailportfolio/static/media/plus.8f2968356c60a5629af75133a4023c50.svg",
     "static/media/strelka.svg": "/nailportfolio/static/media/strelka.373e793f4f5a571a27f304828469b336.svg",
     "static/media/play1.svg": "/nailportfolio/static/media/play1.1ff1f0df864560bec11c9966fada2191.svg",
-    "main.cd1f9f09.css.map": "/nailportfolio/static/css/main.cd1f9f09.css.map",
-    "main.f2ec145e.js.map": "/nailportfolio/static/js/main.f2ec145e.js.map",
+    "main.db42e6b3.css.map": "/nailportfolio/static/css/main.db42e6b3.css.map",
+    "main.36eb3e03.js.map": "/nailportfolio/static/js/main.36eb3e03.js.map",
     "787.0d9a1556.chunk.js.map": "/nailportfolio/static/js/787.0d9a1556.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd1f9f09.css",
-    "static/js/main.f2ec145e.js"
+    "static/css/main.db42e6b3.css",
+    "static/js/main.36eb3e03.js"
   ]
 }
