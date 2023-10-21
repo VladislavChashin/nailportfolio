@@ -1,4 +1,3 @@
-import img1 from '../../source/images/main/block-images/IMG_1.jpg'
 import img2 from '../../source/images/main/block-images/IMG_2.jpg'
 import img3 from '../../source/images/main/block-images/IMG_3.jpg'
 import img4 from '../../source/images/main/block-images/IMG_4.png'
@@ -15,30 +14,26 @@ import img3_3 from '../../source/images/main/IMG_3-2.png'
 export const imagesData = [
     {
         id: 1,
-        src: img1
-    },
-    {
-        id: 2,
         src: img6
     },
     {
-        id: 3,
+        id: 2,
         src: img7
     },
     {
-        id: 4,
+        id: 3,
         src: img2
     },
     {
-        id: 5,
+        id: 4,
         src: img3
     },
     {
-        id: 6,
+        id: 5,
         src: img4
     },
     {
-        id: 7,
+        id: 6,
         src: img5
     },
 ]

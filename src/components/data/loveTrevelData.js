@@ -12,6 +12,7 @@ import ni from '../../source/images/main/niderland.png'
 import mo from '../../source/images/main/mongolia.png'
 import sp from '../../source/images/main/spain.png'
 import oa from '../../source/images/main/arab.png'
+import abh from '../../source/images/main/abhaz.jpg'
 
 const loveTrevelData = [
     {
@@ -30,78 +31,67 @@ const loveTrevelData = [
         id: 3,
         countre: 'Киргизия',
         img: white,
-        flag: '',
         flag: ky
     },
     {
         id: 4,
         countre: 'Казахстан',
         img: blue,
-        flag: '',
         flag: kz
     },
     {
         id: 5,
         countre: 'Болгария',
         img: blue,
-        flag: '',
         flag: bu
     },
     {
         id: 6,
         countre: 'Узбекистан',
         img: white,
-        flag: '',
         flag: uz
     },
     {
         id: 7,
         countre: 'Италия',
         img: blue,
-        flag: '',
         flag: it
     },
     {
         id: 8,
         countre: 'Турция',
         img: blue,
-        flag: '',
         flag: tu
     },
     {
         id: 9,
         countre: 'Нидерланды',
         img: white,
-        flag: '',
         flag: ni
     },
     {
         id: 10,
         countre: 'Монголия',
         img: blue,
-        flag: '',
         flag: mo
     },
     {
         id: 11,
         countre: 'Испания',
         img: white,
-        flag: '',
         flag: sp
     },
     {
         id: 12,
         countre: 'ОАЭ',
         img: white,
-        flag: '',
         flag: oa
     },
     {
         id: 13,
         countre: 'Абхазия',
         img: blue,
-        flag: '',
-        flag: ''
+        flag: abh
     },
 
 ]
