@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nailportfolio/static/css/main.db42e6b3.css",
-    "main.js": "/nailportfolio/static/js/main.36eb3e03.js",
+    "main.js": "/nailportfolio/static/js/main.10dc4b20.js",
     "static/js/787.0d9a1556.chunk.js": "/nailportfolio/static/js/787.0d9a1556.chunk.js",
     "static/media/IMG_1.MOV": "/nailportfolio/static/media/IMG_1.f926a83088fab7869714.MOV",
     "static/media/IMG_3.mp4": "/nailportfolio/static/media/IMG_3.52632432b4c0cfa8bdcd.mp4",
@@ -60,11 +60,11 @@
     "static/media/strelka.svg": "/nailportfolio/static/media/strelka.373e793f4f5a571a27f304828469b336.svg",
     "static/media/play1.svg": "/nailportfolio/static/media/play1.1ff1f0df864560bec11c9966fada2191.svg",
     "main.db42e6b3.css.map": "/nailportfolio/static/css/main.db42e6b3.css.map",
-    "main.36eb3e03.js.map": "/nailportfolio/static/js/main.36eb3e03.js.map",
+    "main.10dc4b20.js.map": "/nailportfolio/static/js/main.10dc4b20.js.map",
     "787.0d9a1556.chunk.js.map": "/nailportfolio/static/js/787.0d9a1556.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.db42e6b3.css",
-    "static/js/main.36eb3e03.js"
+    "static/js/main.10dc4b20.js"
   ]
 }
